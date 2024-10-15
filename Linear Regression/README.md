@@ -16,3 +16,12 @@
 ### 6. Train the selected model on the training data, optimizing its parameters to make accurate predictions.
 ### 7. For the task of Real Estate Price Prediction, we need historical data with various features that can influence property prices.
 ### 
+
+# Certain assumption for Linear Regression. #
+
+### 1. Data should be linear
+### 2. There should not be any multicollinearity in dataset, Need to perform [VIF] test
+### 3. There should not be any Auto correlation, Need to perform Durbin whatsson test
+### 4. There should not be any Hetrocsadicity
+### 5. Data should be normally distributed
+### 6. There should not be any endogenetic problem
